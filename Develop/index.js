@@ -45,6 +45,7 @@ inquirer.prompt(questions)
                 
             });
             const license = res.data.license;
+            
             console.log(license)
   
                     const readme=
@@ -53,8 +54,6 @@ inquirer.prompt(questions)
 #### Author: ${username}
 
 ${description}
-
-//badge 
 
 # Table of Contents
 * ## Installation
@@ -82,7 +81,8 @@ ${askQ}
 
 ### Picture
 <img src="${res.data.owner.avatar_url}" width="30" style="border-radius: 15px">
-### Email
+
+### Email 
 ${email}
 
 ## Contributors
@@ -91,8 +91,8 @@ ${contributors}
 
 ## License
 
-${license}
-`
+<img src="https://img.shields.io/github/license/${username}/${repo}"
+`;
                 fs.writeFile("../README.md", readme, function(err){
                     if(err) console.log(err+ "Something went wrong.")
                 })
