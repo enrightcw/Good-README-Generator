@@ -3,7 +3,7 @@ const fs = require('fs');
 const axios = require('axios');
 // const markdown =  require('./utils/generateMarkdown');
 const description = "Description needed";
-const contributors = [];
+const credits = [];
 const installation = "Enter installation instructions."; 
 const usage = "Enter Usage Instructions.";
 const tests = "Enter any and all tests run."; 
@@ -38,15 +38,13 @@ inquirer.prompt(questions)
             .get(contribUrl)
             .then(data => {
                 
-                data.data.forEach(element => {
-                    contributors.push(element.login);
-                    console.log(contributors);
-                })
-                
+                for(let i =0; i < data.data.length; i++){
+                    credits.push(data.data[i].login);
+                    console.log(credits);
+                }
+    
             });
-            const license = res.data.license;
-            
-            console.log(license)
+
   
                     const readme=
 `
@@ -87,7 +85,7 @@ ${email}
 
 ## Contributors
 
-${contributors}
+${credits}
 
 ## License
 
@@ -101,12 +99,3 @@ ${contributors}
         })   
 })
 
-
-// function writeToFile(fileName, data) {
-// }
-
-// function init() {
-
-// }
-
-// init();

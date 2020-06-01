@@ -1,6 +1,6 @@
 
-# enrightcw.github.io
-#### Author: enrightcw
+# Salty-Cloud-Frogs-Project-1
+#### Author: tylerroth15
 
 Description needed
 
@@ -29,7 +29,7 @@ Enter any and all tests run.
 Using the email link below, please reach out with any questions.
 
 ### Picture
-<img src="https://avatars2.githubusercontent.com/u/58670012?v=4" width="30" style="border-radius: 15px">
+<img src="https://avatars0.githubusercontent.com/u/59520608?v=4" width="30" style="border-radius: 15px">
 
 ### Email 
 someemail@email.com
@@ -40,4 +40,4 @@ someemail@email.com
 
 ## License
 
-<img src="https://img.shields.io/github/license/enrightcw/enrightcw.github.io">
+<img src="https://img.shields.io/github/license/tylerroth15/Salty-Cloud-Frogs-Project-1">
