@@ -8,7 +8,7 @@ const installation = "Enter installation instructions.";
 const usage = "Enter Usage Instructions.";
 const tests = "Enter any and all tests run."; 
 const askQ = "Using the email link below, please reach out with any questions.";
-const email = "mailto:someemail@email.com";
+const email = "someemail@email.com";
 
 const questions = [
     {
@@ -80,13 +80,10 @@ ${tests}
 
 ${askQ}
 
-### Email
-
-${email}
-
 ### Picture
-
 <img src="${res.data.owner.avatar_url}" width="30" style="border-radius: 15px">
+### Email
+${email}
 
 ## Contributors
 

@@ -30,13 +30,10 @@ Enter any and all tests run.
 
 Using the email link below, please reach out with any questions.
 
-### Email
-
-mailto:someemail@email.com
-
 ### Picture
-
 <img src="https://avatars2.githubusercontent.com/u/58670012?v=4" width="30" style="border-radius: 15px">
+### Email
+someemail@email.com
 
 ## Contributors
 
