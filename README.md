@@ -1,39 +1,38 @@
 
-                        # enrightcw.github.io
-                        #### Author: enrightcw
+# enrightcw.github.io
+#### Author: enrightcw
 
-                        Description needed
+Description needed
 
-                        //badge 
+//badge 
 
-                        # Table of Contents
-                        * ##Installation
-                        * ##Usage
-                        * ##Tests
-                        * ##Questions
-                        * ##Contributors
-                        * ##License
+# Table of Contents
+* ##Installation
+* ##Usage
+* ##Tests
+* ##Questions
+* ##Contributors
+* ##License
 
-                        ##Installation
-                        Enter installation instructions.
+##Installation
+Enter installation instructions.
 
-                        ##Usage
-                        Enter Usage Instructions.
+##Usage
+Enter Usage Instructions.
 
-                        ##Tests
-                        Enter any and all tests run.
+##Tests
+Enter any and all tests run.
 
-                        ##Questions
-                        Using the email link below, please reach out with any questions.
-                        ###Email
-                        mailto:someemail@email.com
+##Questions
+Using the email link below, please reach out with any questions.
+###Email
+mailto:someemail@email.com
 
-                        ###Picture
-                        <img src="https://avatars2.githubusercontent.com/u/58670012?v=4" width="30" style="border-radius: 15px">
+###Picture
+<img src="https://avatars2.githubusercontent.com/u/58670012?v=4" width="30" style="border-radius: 15px">
 
-                        ##Contributors
-                        
+##Contributors
 
-                        ##License
-                        [object Object]
-                    
+
+##License
+[object Object]
