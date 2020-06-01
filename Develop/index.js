@@ -48,48 +48,58 @@ inquirer.prompt(questions)
             console.log(license)
   
                     const readme=
-                    `
-                        # ${repo}
-                        #### Author: ${username}
+`
+# ${repo}
+#### Author: ${username}
 
-                        ${description}
+${description}
 
-                        //badge 
+//badge 
 
-                        # Table of Contents
-                        * ##Installation
-                        * ##Usage
-                        * ##Tests
-                        * ##Questions
-                        * ##Contributors
-                        * ##License
+# Table of Contents
+* ## Installation
+* ## Usage
+* ## Tests
+* ## Questions
+* ## Contributors
+* ## License
 
-                        ##Installation
-                        ${installation}
+## Installation
 
-                        ##Usage
-                        ${usage}
+${installation}
 
-                        ##Tests
-                        ${tests}
+## Usage
 
-                        ##Questions
-                        ${askQ}
-                        ###Email
-                        ${email}
+${usage}
 
-                        ###Picture
-                        <img src="${res.data.owner.avatar_url}" width="30" style="border-radius: 15px">
+## Tests
 
-                        ##Contributors
-                        ${contributors}
+${tests}
 
-                        ##License
-                        ${license}
-                    `
-                fs.writeFile("README.md", readme, function(err){
+## Questions
+
+${askQ}
+
+### Email
+
+${email}
+
+### Picture
+
+<img src="${res.data.owner.avatar_url}" width="30" style="border-radius: 15px">
+
+## Contributors
+
+${contributors}
+
+## License
+
+${license}
+`
+                fs.writeFile("../README.md", readme, function(err){
                     if(err) console.log(err+ "Something went wrong.")
                 })
+                
              
         })   
 })
