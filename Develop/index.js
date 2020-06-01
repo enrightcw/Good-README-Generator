@@ -91,7 +91,7 @@ ${contributors}
 
 ## License
 
-<img src="https://img.shields.io/github/license/${username}/${repo}"
+<img src="https://img.shields.io/github/license/${username}/${repo}">
 `;
                 fs.writeFile("../README.md", readme, function(err){
                     if(err) console.log(err+ "Something went wrong.")
