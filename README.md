@@ -4,6 +4,8 @@
 
 This is a project to generate a good readme template for each repo past through it, it generates some info through CLI and the rest pulled through API pulls.
 
+### Open Issues <img src= "https://img.shields.io/github/issues/enrightcw/Good-README-Generator"
+
 # Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -18,18 +20,18 @@ npm i
 
 ## Usage
 
-This is a work in progress that requires CLI inputs
+This is a work in progress to generate a good readme.
 
 ## Tests
 
-npm test
+npm t
 
 ## Questions
 
 Using the email link below, please reach out with any questions.
 
 ### Picture
-<img src="https://avatars2.githubusercontent.com/u/58670012?v=4">
+<img src="https://avatars2.githubusercontent.com/u/58670012?v=4" width="30" style="border-radius: 15px">
 
 ### Email 
 enrightcw@gmail.com
