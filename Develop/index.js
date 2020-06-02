@@ -81,12 +81,12 @@ inquirer.prompt(questions)
 ${description}
 
 # Table of Contents
-* [Installation] (#installation)
-* [Usage] (#usage)
-* [Tests] (#tests)
-* [Questions] (#questions)
-* [Contributors] (#contributors)
-* [License] (#license)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Tests](#tests)
+* [Questions](#questions)
+* [Contributors](#contributors)
+* [License](#license)
 
 ## Installation
 

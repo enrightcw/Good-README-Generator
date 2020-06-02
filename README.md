@@ -5,12 +5,12 @@
 Something
 
 # Table of Contents
-* [Installation] (#installation)
-* [Usage] (#usage)
-* [Tests] (#tests)
-* [Questions] (#questions)
-* [Contributors] (#contributors)
-* [License] (#license)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Tests](#tests)
+* [Questions](#questions)
+* [Contributors](#contributors)
+* [License](#license)
 
 ## Installation
 
@@ -29,7 +29,7 @@ npm test
 Using the email link below, please reach out with any questions.
 
 ### Picture
-<img src="https://avatars2.githubusercontent.com/u/58670012?v=4" >
+<img src="https://avatars2.githubusercontent.com/u/58670012?v=4">
 
 ### Email 
 enrightcw@gmail.com
