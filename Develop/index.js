@@ -102,7 +102,7 @@ ${tests}
 ${askQ}
 
 ### Picture
-<img src="${res.data.owner.avatar_url}" width="30" style="border-radius: 15px">
+<img src="${res.data.owner.avatar_url}">
 
 ### Email 
 ${email}
