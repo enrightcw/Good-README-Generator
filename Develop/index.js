@@ -80,6 +80,8 @@ inquirer.prompt(questions)
 
 ${description}
 
+### Open Issues <img src= "https://img.shields.io/github/issues/${username}/${repo}"
+
 # Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
