@@ -2,41 +2,41 @@
 # enrightcw.github.io
 #### Author: enrightcw
 
-Description needed
+Something
 
 # Table of Contents
-* ## Installation
-* ## Usage
-* ## Tests
-* ## Questions
-* ## Contributors
-* ## License
+* [Installation] (#installation)
+* [Usage] (#usage)
+* [Tests] (#tests)
+* [Questions] (#questions)
+* [Contributors] (#contributors)
+* [License] (#license)
 
 ## Installation
 
-Enter installation instructions.
+npm i
 
 ## Usage
 
-Enter Usage Instructions.
+stuff
 
 ## Tests
 
-Enter any and all tests run.
+npm test
 
 ## Questions
 
 Using the email link below, please reach out with any questions.
 
 ### Picture
-<img src="https://avatars2.githubusercontent.com/u/58670012?v=4" width="30" style="border-radius: 15px">
+<img src="https://avatars2.githubusercontent.com/u/58670012?v=4" >
 
 ### Email 
-someemail@email.com
+enrightcw@gmail.com
 
 ## Contributors
 
- 
+none
 
 ## License
 
