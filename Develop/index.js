@@ -1,16 +1,10 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
 const axios = require('axios');
+const async = require('async');
 // const markdown =  require('./utils/generateMarkdown');
-// const description;
-const credits = ["none"];
-// const install = "Enter installation instructions."; 
-// const usage = "Enter Usage Instructions.";
-// const tests = "Enter any and all tests run."; 
+let credits = "";
 const askQ = "Using the email link below, please reach out with any questions.";
-// const email = "someemail@email.com";
-// const buildReadme = () =>{
-//  return};
 
 const questions = [
     {
@@ -64,12 +58,13 @@ inquirer.prompt(questions)
             axios
             .get(contribUrl)
             .then(data => {
+                credits = data.data[0].login;
                 //data.data.forEach(element => credits.push(element.login))
-                for(let i =0; i < data.data.length; i++){
-                    credits.push(data.data[i].login);
-                    console.log(credits);
+                // for(let i =0; i < data.data.length; i++){
+                //     credits.push(data.data[i].login);
+                //     console.log(credits);
                     
-                }
+                // }
                 
             });
 
@@ -80,7 +75,7 @@ inquirer.prompt(questions)
 
 ${description}
 
-### Open Issues <img src= "https://img.shields.io/github/issues/${username}/${repo}"
+### Open Issues <img src= "https://img.shields.io/github/issues/${username}/${repo}">
 
 # Table of Contents
 * [Installation](#installation)
@@ -120,8 +115,8 @@ ${credits}
 
 <img src="https://img.shields.io/github/license/${username}/${repo}">
 `
-                
-            fs.writeFile("../README.md", finalReadme, function(err){
+            
+            fs.writeFile(repo + "README.md", finalReadme, function(err){
                 if(err) console.log(err+ "Something went wrong.")
             })
                 

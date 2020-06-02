@@ -4,7 +4,7 @@
 
 This is a project to generate a good readme template for each repo past through it, it generates some info through CLI and the rest pulled through API pulls.
 
-### Open Issues <img src= "https://img.shields.io/github/issues/enrightcw/Good-README-Generator"
+### Open Issues <img src= "https://img.shields.io/github/issues/enrightcw/Good-README-Generator">
 
 # Table of Contents
 * [Installation](#installation)
@@ -20,11 +20,11 @@ npm i
 
 ## Usage
 
-This is a work in progress to generate a good readme.
+This is a work in progress to generate a good readme, there is user input required through CLI to generate the README.  Use node index.js to run the file in terminal.
 
 ## Tests
 
-npm t
+npm test
 
 ## Questions
 
