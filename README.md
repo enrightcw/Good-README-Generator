@@ -4,6 +4,8 @@
 
 This is a project to generate a good readme template for each repo past through it, it generates some info through CLI and the rest pulled through API pulls.
 
+Video of generator in action: https://www.loom.com/share/9c50ce781c3943ee8055401f012d70b3
+
 ### Open Issues <img src= "https://img.shields.io/github/issues/enrightcw/Good-README-Generator">
 
 # Table of Contents
